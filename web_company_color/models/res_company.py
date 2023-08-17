@@ -229,9 +229,9 @@ class ResCompany(models.Model):
         else:
             return self.SCSS_TEMPLATE % self._scss_get_sanitized_values()
 
-    def scss_get_url(self,environment=None):
+    def scss_get_url(self, from_create=False, environment=None):
         self.ensure_one()
-        environment = environment if environment else os.environ.get("ODOO_STAGE")
+        environment = environment if environment or from_create else os.environ.get("ODOO_STAGE")
         if environment == "staging":
             return URL_SCSS_GEN_TEMPLATE_STAGING
         elif environment == "dev":
@@ -243,7 +243,7 @@ class ResCompany(models.Model):
         IrAttachmentObj = self.env["ir.attachment"]
         for record in self:
             datas = base64.b64encode(record._scss_generate_content(environment).encode("utf-8"))
-            custom_url = record.scss_get_url(environment)
+            custom_url = record.scss_get_url(True, environment)
             company_id = 1 if environment else record.id
             custom_attachment = IrAttachmentObj.sudo().search(
                 [("url", "=", custom_url), ("company_id", "=", company_id)]
