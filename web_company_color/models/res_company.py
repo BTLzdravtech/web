@@ -1,6 +1,7 @@
 # Copyright 2019 Alexandre Díaz <dev@redneboa.es>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 import base64
+import os
 from colorsys import hls_to_rgb, rgb_to_hls
 
 from odoo import api, fields, models
@@ -8,11 +9,25 @@ from odoo import api, fields, models
 from ..utils import convert_to_image, image_to_rgb, n_rgb_to_hex
 
 URL_BASE = "/web_company_color/static/src/scss/"
+URL_SCSS_GEN_TEMPLATE_STAGING = URL_BASE + "custom_colors.staging.gen.scss"
+URL_SCSS_GEN_TEMPLATE_DEV = URL_BASE + "custom_colors.dev.gen.scss"
 URL_SCSS_GEN_TEMPLATE = URL_BASE + "custom_colors.%d.gen.scss"
 
 
 class ResCompany(models.Model):
     _inherit = "res.company"
+
+    SCSS_TEMPLATE_STAGING = """
+        .o_main_navbar {
+          background-color: #CF1D1D !important;
+        }
+    """
+
+    SCSS_TEMPLATE_DEV = """
+        .o_main_navbar {
+          background-color: #DE6B23 !important;
+        }
+        """
 
     SCSS_TEMPLATE = """
         .o_main_navbar {
@@ -133,6 +148,8 @@ class ResCompany(models.Model):
             result = super().write(values)
             if any([field in values for field in fields_to_check]):
                 self.scss_create_or_update_attachment()
+                self.scss_create_or_update_attachment("staging")
+                self.scss_create_or_update_attachment("dev")
         else:
             result = super().write(values)
         return result
@@ -200,22 +217,33 @@ class ResCompany(models.Model):
         )
         return values
 
-    def _scss_generate_content(self):
+    def _scss_generate_content(self, environment=None):
         self.ensure_one()
         # ir.attachment need files with content to work
         if not self.company_colors:
             return "// No Web Company Color SCSS Content\n"
-        return self.SCSS_TEMPLATE % self._scss_get_sanitized_values()
+        if environment == "staging":
+            return self.SCSS_TEMPLATE_STAGING
+        elif environment == "dev":
+            return self.SCSS_TEMPLATE_DEV
+        else:
+            return self.SCSS_TEMPLATE % self._scss_get_sanitized_values()
 
-    def scss_get_url(self):
+    def scss_get_url(self,environment=None):
         self.ensure_one()
-        return URL_SCSS_GEN_TEMPLATE % self.id
+        environment = environment if environment else os.environ.get("ODOO_STAGE")
+        if environment == "staging":
+            return URL_SCSS_GEN_TEMPLATE_STAGING
+        elif environment == "dev":
+            return URL_SCSS_GEN_TEMPLATE_DEV
+        else:
+            return URL_SCSS_GEN_TEMPLATE % self.id
 
-    def scss_create_or_update_attachment(self):
+    def scss_create_or_update_attachment(self, environment=None):
         IrAttachmentObj = self.env["ir.attachment"]
         for record in self:
-            datas = base64.b64encode(record._scss_generate_content().encode("utf-8"))
-            custom_url = record.scss_get_url()
+            datas = base64.b64encode(record._scss_generate_content(environment).encode("utf-8"))
+            custom_url = record.scss_get_url(environment)
             custom_attachment = IrAttachmentObj.sudo().search(
                 [("url", "=", custom_url), ("company_id", "=", record.id)]
             )
