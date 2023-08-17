@@ -244,15 +244,16 @@ class ResCompany(models.Model):
         for record in self:
             datas = base64.b64encode(record._scss_generate_content(environment).encode("utf-8"))
             custom_url = record.scss_get_url(environment)
+            company_id = 1 if environment else record.id
             custom_attachment = IrAttachmentObj.sudo().search(
-                [("url", "=", custom_url), ("company_id", "=", record.id)]
+                [("url", "=", custom_url), ("company_id", "=", company_id)]
             )
             values = {
                 "datas": datas,
                 "db_datas": datas,
                 "url": custom_url,
                 "name": custom_url,
-                "company_id": record.id,
+                "company_id": company_id,
             }
             if custom_attachment:
                 custom_attachment.sudo().write(values)
