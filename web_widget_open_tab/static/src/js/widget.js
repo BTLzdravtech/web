@@ -23,12 +23,18 @@ odoo.define("web_widget_open_tab.FieldOpenTab", function (require) {
             var url = window.location.href;
             var searchParams = new URLSearchParams(url.split("#")[1]);
             searchParams.set("view_type", "form");
-            searchParams.set("id", this.res_id);
+            var self;
+            if (this.record.data[this.attrs['name']].hasOwnProperty('model') && this.model !== this.record.data[this.attrs['name']].model) {
+                self = this.record.data[this.attrs['name']];
+            } else {
+                self = this;
+            }
+            searchParams.set("id", self.res_id);
             if (
                 !searchParams.has("model") ||
-                searchParams.get("model") !== this.model
+                searchParams.get("model") !== self.model
             ) {
-                searchParams.set("model", this.model);
+                searchParams.set("model", self.model);
                 searchParams.delete("action");
             }
             return url.split("#")[0] + "#" + searchParams.toString();
@@ -55,6 +61,7 @@ odoo.define("web_widget_open_tab.FieldOpenTab", function (require) {
                 },
             });
             this.$el.append($content);
+            this.$el.append($("<span>", {text: " " + this._formatValue(this.value)}));
         },
         _onClick: function (ev) {
             ev.preventDefault();
