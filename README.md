@@ -34,12 +34,13 @@ addon | version | maintainers | summary
 [web_calendar_slot_duration](web_calendar_slot_duration/) | 14.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Customizable calendar slot durations
 [web_company_color](web_company_color/) | 14.0.2.0.0 |  | Web Company Color
 [web_copy_confirm](web_copy_confirm/) | 14.0.1.0.0 |  | Show confirmation dialogue before copying records
-[web_create_write_confirm](web_create_write_confirm/) | 14.0.1.0.0 |  | Confirm/Alert pop-up before saving
+[web_create_write_confirm](web_create_write_confirm/) | 14.0.1.1.0 | [![ilyasProgrammer](https://github.com/ilyasProgrammer.png?size=30px)](https://github.com/ilyasProgrammer) | Confirm/Alert pop-up before saving
 [web_decimal_numpad_dot](web_decimal_numpad_dot/) | 14.0.1.0.0 |  | Allows using numpad dot to enter period decimal separator
 [web_dialog_size](web_dialog_size/) | 14.0.1.0.0 |  | A module that lets the user expand a dialog box to the full screen width.
 [web_disable_export_group](web_disable_export_group/) | 14.0.2.0.0 |  | Web Disable Export Group
 [web_domain_field](web_domain_field/) | 14.0.1.0.2 |  | Use computed field as domain
 [web_drop_target](web_drop_target/) | 14.0.1.1.1 |  | Allows to drag files into Odoo
+[web_edit_user_filter](web_edit_user_filter/) | 14.0.1.0.0 |  | Edit User Filters
 [web_environment_ribbon](web_environment_ribbon/) | 14.0.1.0.0 |  | Web Environment Ribbon
 [web_field_required_invisible_manager](web_field_required_invisible_manager/) | 14.0.2.1.3 | [![ilyasProgrammer](https://github.com/ilyasProgrammer.png?size=30px)](https://github.com/ilyasProgrammer) | Web Field Required Invisible Readonly Managerr
 [web_group_expand](web_group_expand/) | 14.0.1.0.0 |  | Group Expand Buttons
@@ -70,7 +71,7 @@ addon | version | maintainers | summary
 [web_widget_child_selector](web_widget_child_selector/) | 14.0.1.0.1 |  | Widget used for navigation on hierarchy fields
 [web_widget_ckeditor](web_widget_ckeditor/) | 14.0.1.0.2 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Provides a widget for editing HTML fields using CKEditor
 [web_widget_datepicker_fulloptions](web_widget_datepicker_fulloptions/) | 14.0.1.0.0 |  | Web Widget DatePicker Full Options
-[web_widget_domain_editor_dialog](web_widget_domain_editor_dialog/) | 14.0.1.0.1 |  | Recovers the Domain Editor Dialog functionality
+[web_widget_domain_editor_dialog](web_widget_domain_editor_dialog/) | 14.0.1.0.2 |  | Recovers the Domain Editor Dialog functionality
 [web_widget_dropdown_dynamic](web_widget_dropdown_dynamic/) | 14.0.1.0.0 |  | This module adds support for dynamic dropdown widget
 [web_widget_image_download](web_widget_image_download/) | 14.0.1.0.0 |  | Allows to download any image from its widget
 [web_widget_image_webcam](web_widget_image_webcam/) | 14.0.1.0.1 |  | Allows to take image with WebCam

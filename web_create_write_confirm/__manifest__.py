@@ -3,9 +3,10 @@
 
 {
     "name": "Confirm/Alert pop-up before saving",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.1.0",
     "depends": ["web"],
     "author": "Smile, Odoo Community Association (OCA)",
+    "maintainers": ["ilyasProgrammer"],
     "license": "AGPL-3",
     "website": "https://github.com/OCA/web",
     "category": "Tools",
