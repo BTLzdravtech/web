@@ -159,6 +159,8 @@ class ResCompany(models.Model):
             return URL_SCSS_GEN_TEMPLATE_STAGING
         elif environment == "dev":
             return URL_SCSS_GEN_TEMPLATE_DEV
+        else:
+            return URL_SCSS_GEN_TEMPLATE % self.id
 
     def scss_create_or_update_attachment(self, environment=None):
         IrAttachmentObj = self.env["ir.attachment"]
