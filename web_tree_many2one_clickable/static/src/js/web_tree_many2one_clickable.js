@@ -15,7 +15,7 @@ odoo.define("web_tree_many2one_clickable.many2one_clickable", function (require)
     ListRenderer.include({
         _renderBodyCell: function (record, node, colIndex, options) {
             if (
-                !node.attrs.widget &&
+                (!node.attrs.widget || node.attrs.widget === "many2one_avatar_user") &&
                 node.attrs.name &&
                 this.state.fields[node.attrs.name] &&
                 this.state.fields[node.attrs.name].type === "many2one"
@@ -60,6 +60,26 @@ odoo.define("web_tree_many2one_clickable.many2one_clickable", function (require)
                             additionalContext: self.attrs.context || {},
                         }),
                     });
+                }).on("mousedown", function (ev) {
+                    if (ev.which === 2 || (ev.which === 1 && ev.ctrlKey)) {
+                        ev.preventDefault();
+                        ev.stopPropagation();
+                        let url = '/web#model=' + self.field.relation + '&id=' + self.value.res_id + '&view_type=form';
+
+                        let context = self.record.getContext({
+                            additionalContext: self.attrs.context || {},
+                        })
+
+                        if (context && context.hasOwnProperty('params') && context.params.menu_id) {
+                            url += '&menu_id=' + context.params.menu_id
+                        } else {
+                            const matches = location.href.match(/menu_id=\d+/)
+                            if (matches !== null) {
+                                url += '&' + matches[0]
+                            }
+                        }
+                        window.open(url, '_blank');
+                    }
                 });
                 this.$el.append($a);
             }
