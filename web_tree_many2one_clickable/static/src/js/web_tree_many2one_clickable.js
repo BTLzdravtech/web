@@ -15,7 +15,7 @@ odoo.define("web_tree_many2one_clickable.many2one_clickable", function (require)
     ListRenderer.include({
         _renderBodyCell: function (record, node, colIndex, options) {
             if (
-                (!node.attrs.widget || node.attrs.widget === "many2one_avatar_user") &&
+                !node.attrs.widget &&
                 node.attrs.name &&
                 this.state.fields[node.attrs.name] &&
                 this.state.fields[node.attrs.name].type === "many2one"
