@@ -61,7 +61,7 @@ odoo.define("web_tree_many2one_clickable.many2one_clickable", function (require)
                         }),
                     });
                 }).on("mousedown", function (ev) {
-                    if (ev.which === 2 || (ev.which === 1 && ev.ctrlKey)) {
+                    if (ev.which === 2 || (ev.which === 1 && (ev.ctrlKey || ev.metaKey))) {
                         ev.preventDefault();
                         ev.stopPropagation();
                         let url = '/web#model=' + self.field.relation + '&id=' + self.value.res_id + '&view_type=form';
