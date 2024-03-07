@@ -30,6 +30,7 @@ addon | version | maintainers | summary
 [web_dark_mode](web_dark_mode/) | 16.0.1.0.2 |  | Enabled Dark Mode for the Odoo Backend
 [web_dashboard_tile](web_dashboard_tile/) | 16.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Add Overview Dashboards with Tiles
 [web_dialog_size](web_dialog_size/) | 16.0.1.0.0 |  | A module that lets the user expand a dialog box to the full screen width.
+[web_disable_export_group](web_disable_export_group/) | 16.0.1.0.0 |  | Web Disable Export Group
 [web_domain_field](web_domain_field/) | 16.0.1.0.1 |  | Use computed field as domain
 [web_environment_ribbon](web_environment_ribbon/) | 16.0.1.0.0 |  | Web Environment Ribbon
 [web_field_numeric_formatting](web_field_numeric_formatting/) | 16.0.1.0.0 |  | Allow to render float and integer fields without thousands separator
@@ -51,6 +52,7 @@ addon | version | maintainers | summary
 [web_save_discard_button](web_save_discard_button/) | 16.0.1.0.2 | [![synconics](https://github.com/synconics.png?size=30px)](https://github.com/synconics) | Save & Discard Buttons
 [web_search_with_and](web_search_with_and/) | 16.0.1.0.0 |  | Use AND conditions on omnibar search
 [web_select_all_companies](web_select_all_companies/) | 16.0.1.0.1 |  | Allows you to select all companies in one click.
+[web_send_message_popup](web_send_message_popup/) | 16.0.1.0.0 |  | Web Send Message as Popup
 [web_sheet_full_width](web_sheet_full_width/) | 16.0.1.0.0 |  | Use the whole available screen width when displaying sheets
 [web_theme_classic](web_theme_classic/) | 16.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Contrasted style on fields to improve the UI.
 [web_timeline](web_timeline/) | 16.0.1.0.3 | [![tarteo](https://github.com/tarteo.png?size=30px)](https://github.com/tarteo) | Interactive visualization chart to show events in time
@@ -59,6 +61,7 @@ addon | version | maintainers | summary
 [web_tree_many2one_clickable](web_tree_many2one_clickable/) | 16.0.1.0.0 |  | Open the linked resource when clicking on their name
 [web_widget_bokeh_chart](web_widget_bokeh_chart/) | 16.0.1.1.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | This widget allows to display charts using Bokeh library.
 [web_widget_datepicker_fulloptions](web_widget_datepicker_fulloptions/) | 16.0.1.0.0 |  | Web Widget DatePicker Full Options
+[web_widget_domain_editor_dialog](web_widget_domain_editor_dialog/) | 16.0.1.0.0 |  | Recovers the Domain Editor Dialog functionality
 [web_widget_dropdown_dynamic](web_widget_dropdown_dynamic/) | 16.0.1.0.0 |  | This module adds support for dynamic dropdown widget
 [web_widget_mpld3_chart](web_widget_mpld3_chart/) | 16.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | This widget allows to display charts using MPLD3 library.
 [web_widget_numeric_step](web_widget_numeric_step/) | 16.0.1.1.3 | [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Web Widget Numeric Step
