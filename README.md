@@ -30,7 +30,7 @@ addon | version | maintainers | summary
 [web_dialog_size](web_dialog_size/) | 15.0.1.1.0 |  | A module that lets the user expand a dialog box to the full screen width.
 [web_disable_export_group](web_disable_export_group/) | 15.0.2.0.0 |  | Web Disable Export Group
 [web_domain_field](web_domain_field/) | 15.0.1.0.1 |  | Use computed field as domain
-[web_drop_target](web_drop_target/) | 15.0.1.0.1 |  | Allows to drag files into Odoo
+[web_drop_target](web_drop_target/) | 15.0.1.0.2 |  | Allows to drag files into Odoo
 [web_environment_ribbon](web_environment_ribbon/) | 15.0.1.0.0 |  | Web Environment Ribbon
 [web_group_expand](web_group_expand/) | 15.0.1.0.0 |  | Group Expand Buttons
 [web_hide_user_menu_item](web_hide_user_menu_item/) | 15.0.1.0.0 |  | Web Hide User Menu Item
@@ -48,6 +48,7 @@ addon | version | maintainers | summary
 [web_remember_tree_column_width](web_remember_tree_column_width/) | 15.0.1.0.1 | [![frahikLV](https://github.com/frahikLV.png?size=30px)](https://github.com/frahikLV) [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) | Remember the tree columns' widths across sessions.
 [web_responsive](web_responsive/) | 15.0.1.1.12 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) [![Tardo](https://github.com/Tardo.png?size=30px)](https://github.com/Tardo) [![SplashS](https://github.com/SplashS.png?size=30px)](https://github.com/SplashS) | Responsive web client, community-supported
 [web_search_with_and](web_search_with_and/) | 15.0.1.0.2 |  | Use AND conditions on omnibar search
+[web_select_all_companies](web_select_all_companies/) | 15.0.1.0.0 |  | Allows you to select all companies in one click.
 [web_send_message_popup](web_send_message_popup/) | 15.0.1.0.0 |  | Web Send Message as Popup
 [web_sheet_full_width](web_sheet_full_width/) | 15.0.1.0.1 |  | Use the whole available screen width when displaying sheets
 [web_time_range_menu_custom](web_time_range_menu_custom/) | 15.0.1.0.1 |  | Web Time Range Menu Custom
