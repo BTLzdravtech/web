@@ -18,14 +18,32 @@ export class TreeMany2oneClickableButton extends Component {
 
     async onClick(ev) {
         ev.stopPropagation();
-        return this.actionService.doAction({
-            type: "ir.actions.act_window",
-            res_model: this.props.field.relation,
-            res_id: this.props.value[0],
-            views: [[false, "form"]],
-            target: "target",
-            additionalContext: this.props.context || {},
-        });
+        if (ev.which === 2 || (ev.which === 1 && (ev.ctrlKey || ev.metaKey))) {
+            ev.preventDefault();
+            ev.stopPropagation();
+            let url = '/web#model=' + this.props.field.relation + '&id=' + this.props.value[0] + '&view_type=form';
+
+            let context = this.props.context;
+
+            if (context && context.hasOwnProperty('params') && context.params.menu_id) {
+                url += '&menu_id=' + context.params.menu_id
+            } else {
+                const matches = location.href.match(/menu_id=\d+/)
+                if (matches !== null) {
+                    url += '&' + matches[0]
+                }
+            }
+            window.open(url, '_blank');
+        } else {
+            return this.actionService.doAction({
+                type: "ir.actions.act_window",
+                res_model: this.props.field.relation,
+                res_id: this.props.value[0],
+                views: [[false, "form"]],
+                target: "target",
+                additionalContext: this.props.context || {},
+            });
+        }
     }
 }
 TreeMany2oneClickableButton.template = "web_tree_many2one_clickable.Button";
