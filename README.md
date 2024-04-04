@@ -32,6 +32,7 @@ addon | version | maintainers | summary
 [web_domain_field](web_domain_field/) | 15.0.1.0.1 |  | Use computed field as domain
 [web_drop_target](web_drop_target/) | 15.0.1.0.2 |  | Allows to drag files into Odoo
 [web_environment_ribbon](web_environment_ribbon/) | 15.0.1.0.0 |  | Web Environment Ribbon
+[web_filter_header_button](web_filter_header_button/) | 15.0.1.0.0 |  | Show selected filters as buttons in the control panel
 [web_group_expand](web_group_expand/) | 15.0.1.0.0 |  | Group Expand Buttons
 [web_hide_user_menu_item](web_hide_user_menu_item/) | 15.0.1.0.0 |  | Web Hide User Menu Item
 [web_ir_actions_act_multi](web_ir_actions_act_multi/) | 15.0.1.0.0 |  | Enables triggering of more than one action on ActionManager
@@ -41,7 +42,7 @@ addon | version | maintainers | summary
 [web_m2x_options](web_m2x_options/) | 15.0.1.1.0 |  | web_m2x_options
 [web_m2x_options_manager](web_m2x_options_manager/) | 15.0.1.0.0 |  | Adds an interface to manage the "Create" and "Create and Edit" options for specific models and fields.
 [web_no_bubble](web_no_bubble/) | 15.0.1.0.0 |  | Remove the bubbles from the web interface
-[web_notify](web_notify/) | 15.0.1.1.0 |  | Send notification messages to user
+[web_notify](web_notify/) | 15.0.2.0.0 |  | Send notification messages to user
 [web_pivot_computed_measure](web_pivot_computed_measure/) | 15.0.1.0.4 |  | Web Pivot Computed Measure
 [web_pwa_oca](web_pwa_oca/) | 15.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Make Odoo a PWA
 [web_refresher](web_refresher/) | 15.0.2.0.1 |  | Web Refresher
