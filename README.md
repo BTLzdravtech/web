@@ -44,7 +44,7 @@ addon | version | maintainers | summary
 [web_listview_range_select](web_listview_range_select/) | 16.0.1.0.0 |  | Enables selecting a range of records using the shift key
 [web_m2x_options](web_m2x_options/) | 16.0.1.1.2 |  | web_m2x_options
 [web_no_bubble](web_no_bubble/) | 16.0.1.0.0 |  | Remove the bubbles from the web interface
-[web_notify](web_notify/) | 16.0.1.0.1 |  | Send notification messages to user
+[web_notify](web_notify/) | 16.0.2.0.0 |  | Send notification messages to user
 [web_notify_channel_message](web_notify_channel_message/) | 16.0.1.0.0 |  | Send an instant notification to channel users when a new message is posted
 [web_pivot_computed_measure](web_pivot_computed_measure/) | 16.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Web Pivot Computed Measure
 [web_pwa_oca](web_pwa_oca/) | 16.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Make Odoo a PWA
@@ -57,9 +57,9 @@ addon | version | maintainers | summary
 [web_send_message_popup](web_send_message_popup/) | 16.0.1.0.0 |  | Web Send Message as Popup
 [web_sheet_full_width](web_sheet_full_width/) | 16.0.1.0.0 |  | Use the whole available screen width when displaying sheets
 [web_theme_classic](web_theme_classic/) | 16.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Contrasted style on fields to improve the UI.
-[web_timeline](web_timeline/) | 16.0.1.0.3 | [![tarteo](https://github.com/tarteo.png?size=30px)](https://github.com/tarteo) | Interactive visualization chart to show events in time
+[web_timeline](web_timeline/) | 16.0.1.1.0 | [![tarteo](https://github.com/tarteo.png?size=30px)](https://github.com/tarteo) | Interactive visualization chart to show events in time
 [web_touchscreen](web_touchscreen/) | 16.0.1.0.1 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) | UX improvements for touch screens
-[web_tree_duplicate](web_tree_duplicate/) | 16.0.1.0.0 | [![tarteo](https://github.com/tarteo.png?size=30px)](https://github.com/tarteo) | Duplicate records directly from the tree view.
+[web_tree_duplicate](web_tree_duplicate/) | 16.0.1.0.1 | [![tarteo](https://github.com/tarteo.png?size=30px)](https://github.com/tarteo) | Duplicate records directly from the tree view.
 [web_tree_many2one_clickable](web_tree_many2one_clickable/) | 16.0.1.0.0 |  | Open the linked resource when clicking on their name
 [web_widget_bokeh_chart](web_widget_bokeh_chart/) | 16.0.1.1.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | This widget allows to display charts using Bokeh library.
 [web_widget_datepicker_fulloptions](web_widget_datepicker_fulloptions/) | 16.0.1.0.0 |  | Web Widget DatePicker Full Options
