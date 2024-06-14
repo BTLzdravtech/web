@@ -14,7 +14,7 @@ class WebEnvironmentRibbonBackend(models.AbstractModel):
     @api.model
     def _prepare_ribbon_format_vals(self):
         dbname = self.env.cr.dbname
-        regex_match_dev = re.search("^btlnet\-(.*)\-[0-9]+$", self.env.cr.dbname)
+        regex_match_dev = re.search("^btlnet-(.*)-[0-9]+$", self.env.cr.dbname)
         if regex_match_dev and regex_match_dev.group(1):
             dbname = regex_match_dev.group(1)
         return {"db_name": dbname}
