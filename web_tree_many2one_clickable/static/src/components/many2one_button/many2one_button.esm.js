@@ -21,13 +21,30 @@ patch(ListRenderer.prototype, {
         ev.stopPropagation();
         const field = record.fields[column.name];
         const value = record.data[column.name];
-        return this.actionService.doAction({
-            type: "ir.actions.act_window",
-            res_model: field.relation,
-            res_id: value[0],
-            views: [[false, "form"]],
-            target: "target",
-            additionalContext: column.context || {},
-        });
+        if (ev.which === 2 || (ev.which === 1 && (ev.ctrlKey || ev.metaKey))) {
+            ev.preventDefault();
+            let url = '/web#model=' + field.relation + '&id=' + value[0] + '&view_type=form';
+
+            let context = this.props.context;
+
+            if (context && context.hasOwnProperty('params') && context.params.menu_id) {
+                url += '&menu_id=' + context.params.menu_id
+            } else {
+                const matches = location.href.match(/menu_id=\d+/)
+                if (matches !== null) {
+                    url += '&' + matches[0]
+                }
+            }
+            window.open(url, '_blank');
+        } else {
+            return this.actionService.doAction({
+                type: "ir.actions.act_window",
+                res_model: field.relation,
+                res_id: value[0],
+                views: [[false, "form"]],
+                target: "target",
+                additionalContext: column.context || {},
+            });
+        }
     },
 });
