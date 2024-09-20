@@ -1,0 +1,23 @@
+name: "Sync Fork Branch 17.0"
+
+on:
+  schedule:
+    - cron: '0 8 * * 4' # on Thursday at 8:00
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: tgymnich/fork-sync@v1.3
+        with:
+          owner: OCA
+          github_token: ${{ secrets.FORK_SYNC_TOKEN }}
+          personal_token: ${{ secrets.FORK_SYNC_SIREKO_TOKEN }}
+          base: "17.0"
+          head: "17.0"
+          merge_method: merge
+          pr_title: "Fork Sync Branch 17.0"
+          auto_approve: true
