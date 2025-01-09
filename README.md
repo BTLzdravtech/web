@@ -23,6 +23,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [web_calendar_slot_duration](web_calendar_slot_duration/) | 17.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Customizable calendar slot durations
 [web_chatter_position](web_chatter_position/) | 17.0.1.0.1 | [![trisdoan](https://github.com/trisdoan.png?size=30px)](https://github.com/trisdoan) | Add an option to change the chatter position
+[web_company_color](web_company_color/) | 17.0.1.0.0 |  | Web Company Color
 [web_dialog_size](web_dialog_size/) | 17.0.1.0.0 |  | A module that lets the user expand a dialog box to the full screen width.
 [web_editor_class_selector](web_editor_class_selector/) | 17.0.1.0.0 |  | Web editor class selector
 [web_environment_ribbon](web_environment_ribbon/) | 17.0.1.0.2 |  | Web Environment Ribbon
@@ -35,6 +36,7 @@ addon | version | maintainers | summary
 [web_refresher](web_refresher/) | 17.0.1.1.2 |  | Web Refresher
 [web_remember_tree_column_width](web_remember_tree_column_width/) | 17.0.1.0.0 | [![frahikLV](https://github.com/frahikLV.png?size=30px)](https://github.com/frahikLV) [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![cuongnmtm](https://github.com/cuongnmtm.png?size=30px)](https://github.com/cuongnmtm) | Remember the tree columns' widths across sessions.
 [web_responsive](web_responsive/) | 17.0.1.1.3 | [![Tardo](https://github.com/Tardo.png?size=30px)](https://github.com/Tardo) [![SplashS](https://github.com/SplashS.png?size=30px)](https://github.com/SplashS) | Responsive web client, community-supported
+[web_save_discard_button](web_save_discard_button/) | 17.0.1.0.1 | [![synconics](https://github.com/synconics.png?size=30px)](https://github.com/synconics) | Save & Discard Buttons
 [web_theme_classic](web_theme_classic/) | 17.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Contrasted style on fields to improve the UI.
 [web_time_range_menu_custom](web_time_range_menu_custom/) | 17.0.1.0.0 |  | Web Time Range Menu Custom
 [web_timeline](web_timeline/) | 17.0.1.0.1 | [![tarteo](https://github.com/tarteo.png?size=30px)](https://github.com/tarteo) | Interactive visualization chart to show events in time
