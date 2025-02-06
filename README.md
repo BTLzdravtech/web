@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [web_notify](web_notify/) | 17.0.1.0.0 |  | Send notification messages to user
 [web_refresher](web_refresher/) | 17.0.1.1.2 |  | Web Refresher
 [web_remember_tree_column_width](web_remember_tree_column_width/) | 17.0.1.0.0 | [![frahikLV](https://github.com/frahikLV.png?size=30px)](https://github.com/frahikLV) [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![cuongnmtm](https://github.com/cuongnmtm.png?size=30px)](https://github.com/cuongnmtm) | Remember the tree columns' widths across sessions.
-[web_responsive](web_responsive/) | 17.0.1.1.4 | [![Tardo](https://github.com/Tardo.png?size=30px)](https://github.com/Tardo) [![SplashS](https://github.com/SplashS.png?size=30px)](https://github.com/SplashS) | Responsive web client, community-supported
+[web_responsive](web_responsive/) | 17.0.1.1.5 | [![Tardo](https://github.com/Tardo.png?size=30px)](https://github.com/Tardo) [![SplashS](https://github.com/SplashS.png?size=30px)](https://github.com/SplashS) | Responsive web client, community-supported
 [web_save_discard_button](web_save_discard_button/) | 17.0.1.0.1 | [![synconics](https://github.com/synconics.png?size=30px)](https://github.com/synconics) | Save & Discard Buttons
 [web_theme_classic](web_theme_classic/) | 17.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Contrasted style on fields to improve the UI.
 [web_time_range_menu_custom](web_time_range_menu_custom/) | 17.0.1.0.0 |  | Web Time Range Menu Custom
@@ -46,6 +46,7 @@ addon | version | maintainers | summary
 [web_widget_domain_editor_dialog](web_widget_domain_editor_dialog/) | 17.0.1.0.0 |  | Recovers the Domain Editor Dialog functionality
 [web_widget_dropdown_dynamic](web_widget_dropdown_dynamic/) | 17.0.1.0.0 |  | This module adds support for dynamic dropdown widget
 [web_widget_image_download](web_widget_image_download/) | 17.0.1.0.0 |  | Allows to download any image from its widget
+[web_widget_mpld3_chart](web_widget_mpld3_chart/) | 17.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | This widget allows to display charts using MPLD3 library.
 [web_widget_numeric_step](web_widget_numeric_step/) | 17.0.1.0.0 | [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Web Widget Numeric Step
 [web_widget_open_tab](web_widget_open_tab/) | 17.0.1.0.0 |  | Allow to open record from trees on new tab from tree views
 [web_widget_plotly_chart](web_widget_plotly_chart/) | 17.0.1.0.0 | [![robyf70](https://github.com/robyf70.png?size=30px)](https://github.com/robyf70) | Allow to draw plotly charts.
