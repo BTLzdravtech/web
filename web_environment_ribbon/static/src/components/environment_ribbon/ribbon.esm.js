@@ -1,5 +1,3 @@
-/** @odoo-module **/
-
 import {Component, xml} from "@odoo/owl";
 import {useBus, useService} from "@web/core/utils/hooks";
 import {registry} from "@web/core/registry";
@@ -60,7 +58,7 @@ export class WebEnvironmentRibbon extends Component {
 }
 
 WebEnvironmentRibbon.props = {};
-WebEnvironmentRibbon.template = xml`<div class="test-ribbon" />`;
+WebEnvironmentRibbon.template = xml`<div class="test-ribbon" style="display:none"/>`;
 
 registry.category("main_components").add("WebEnvironmentRibbon", {
     Component: WebEnvironmentRibbon,
