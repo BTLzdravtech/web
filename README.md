@@ -33,9 +33,9 @@ addon | version | maintainers | summary
 [web_editor_disable_chatgpt](web_editor_disable_chatgpt/) | 18.0.1.0.0 |  | Web Disable ChatGPT
 [web_environment_ribbon](web_environment_ribbon/) | 18.0.1.0.3 |  | Web Environment Ribbon
 [web_excel_export_dynamic_expand](web_excel_export_dynamic_expand/) | 18.0.1.0.0 |  | Export collapsed groups or the full tree, based on its view.
-[web_favicon](web_favicon/) | 18.0.1.0.0 |  | Allows to set a custom shortcut icon (aka favicon)
+[web_favicon](web_favicon/) | 18.0.1.0.1 |  | Allows to set a custom shortcut icon (aka favicon)
 [web_filter_header_button](web_filter_header_button/) | 18.0.1.0.0 |  | Show selected filters as buttons in the control panel
-[web_form_banner](web_form_banner/) | 18.0.1.0.1 |  | Web Form Banner
+[web_form_banner](web_form_banner/) | 18.0.1.1.0 |  | Web Form Banner
 [web_group_expand](web_group_expand/) | 18.0.1.0.1 |  | Group Expand Buttons
 [web_ir_actions_act_multi](web_ir_actions_act_multi/) | 18.0.1.0.0 |  | Enables triggering of more than one action on ActionManager
 [web_ir_actions_act_window_message](web_ir_actions_act_window_message/) | 18.0.1.0.1 |  | Show a message box to users
@@ -70,6 +70,7 @@ addon | version | maintainers | summary
 [web_widget_dropdown_dynamic](web_widget_dropdown_dynamic/) | 18.0.2.0.0 |  | This module adds support for dynamic dropdown widget
 [web_widget_mpld3_chart](web_widget_mpld3_chart/) | 18.0.1.0.0 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> <a href='https://github.com/ThiagoMForgeFlow'><img src='https://github.com/ThiagoMForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ThiagoMForgeFlow'/></a> | This widget allows to display charts using MPLD3 library.
 [web_widget_numeric_step](web_widget_numeric_step/) | 18.0.1.0.2 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Web Widget Numeric Step
+[web_widget_o2m_attachment_image_gallery](web_widget_o2m_attachment_image_gallery/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Widget o2m Attachment Image Gallery Widget
 [web_widget_one2many_tree_line_duplicate](web_widget_one2many_tree_line_duplicate/) | 18.0.1.0.1 |  | Web Widget One2many Tree Line Duplicate
 [web_widget_open_tab](web_widget_open_tab/) | 18.0.1.0.0 |  | Allow to open record from trees on new tab from tree views
 [web_widget_popover](web_widget_popover/) | 18.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Render an icon that displays the field content in a popover
