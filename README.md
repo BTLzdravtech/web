@@ -1,3 +1,4 @@
+
 [![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
 
 # web
@@ -22,8 +23,8 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [web_calendar_slot_duration](web_calendar_slot_duration/) | 18.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Customizable calendar slot durations
-[web_chatter_position](web_chatter_position/) | 18.0.1.1.0 | <a href='https://github.com/trisdoan'><img src='https://github.com/trisdoan.png' width='32' height='32' style='border-radius:50%;' alt='trisdoan'/></a> | Add an option to change the chatter position
-[web_company_color](web_company_color/) | 18.0.1.0.7 |  | Web Company Color
+[web_chatter_position](web_chatter_position/) | 18.0.1.1.1 | <a href='https://github.com/trisdoan'><img src='https://github.com/trisdoan.png' width='32' height='32' style='border-radius:50%;' alt='trisdoan'/></a> | Add an option to change the chatter position
+[web_company_color](web_company_color/) | 18.0.1.1.0 |  | Web Company Color
 [web_copy_confirm](web_copy_confirm/) | 18.0.1.0.0 |  | Show confirmation dialogue before copying records
 [web_dark_mode](web_dark_mode/) | 18.0.1.0.0 |  | Enabled Dark Mode for the Odoo Backend
 [web_datetime_picker_default_time](web_datetime_picker_default_time/) | 18.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Allows to define a default time on datetime picker
@@ -50,7 +51,7 @@ addon | version | maintainers | summary
 [web_portal_properties](web_portal_properties/) | 18.0.1.0.0 |  | Add a new field on properties to show them on portal
 [web_pwa_customize](web_pwa_customize/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Web Pwa Customize
 [web_quick_start_screen](web_quick_start_screen/) | 18.0.1.0.0 |  | Configurable start screen for quick actions
-[web_refresher](web_refresher/) | 18.0.1.0.0 |  | Web Refresher
+[web_refresher](web_refresher/) | 18.0.1.0.1 |  | Web Refresher
 [web_remember_tree_column_width](web_remember_tree_column_width/) | 18.0.1.0.2 | <a href='https://github.com/frahikLV'><img src='https://github.com/frahikLV.png' width='32' height='32' style='border-radius:50%;' alt='frahikLV'/></a> <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> <a href='https://github.com/cuongnmtm'><img src='https://github.com/cuongnmtm.png' width='32' height='32' style='border-radius:50%;' alt='cuongnmtm'/></a> | Remember the tree columns' widths across sessions.
 [web_responsive](web_responsive/) | 18.0.1.0.6 | <a href='https://github.com/Tardo'><img src='https://github.com/Tardo.png' width='32' height='32' style='border-radius:50%;' alt='Tardo'/></a> <a href='https://github.com/SplashS'><img src='https://github.com/SplashS.png' width='32' height='32' style='border-radius:50%;' alt='SplashS'/></a> | Responsive web client, community-supported
 [web_save_discard_button](web_save_discard_button/) | 18.0.1.0.1 | <a href='https://github.com/synconics'><img src='https://github.com/synconics.png' width='32' height='32' style='border-radius:50%;' alt='synconics'/></a> | Save & Discard Buttons
@@ -59,7 +60,7 @@ addon | version | maintainers | summary
 [web_session_auto_close](web_session_auto_close/) | 18.0.1.0.1 |  | Automatically logs out inactive users based on a configurable timeout.
 [web_sort_menu](web_sort_menu/) | 18.0.1.0.0 |  | Sort Apps in DropDown/NavBar Menu alphabetically
 [web_systray_button_init_action](web_systray_button_init_action/) | 18.0.1.0.2 |  | Add a button to go to the user init action.
-[web_theme_classic](web_theme_classic/) | 18.0.1.2.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Contrasted style on fields to improve the UI.
+[web_theme_classic](web_theme_classic/) | 18.0.1.2.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Contrasted style on fields to improve the UI.
 [web_time_range_menu_custom](web_time_range_menu_custom/) | 18.0.1.0.0 |  | Web Time Range Menu Custom
 [web_timeline](web_timeline/) | 18.0.1.0.3 |  | Interactive visualization chart to show events in time
 [web_toggle_chatter](web_toggle_chatter/) | 18.0.1.0.0 |  | Toggle chatter in backend form views
