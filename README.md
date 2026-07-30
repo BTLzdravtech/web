@@ -36,6 +36,7 @@ addon | version | maintainers | summary
 [web_m2x_options](web_m2x_options/) | 19.0.1.0.1 |  | web_m2x_options
 [web_m2x_options_manager](web_m2x_options_manager/) | 19.0.1.0.0 |  | Adds an interface to manage the "Create" and "Create and Edit" options for specific models and fields.
 [web_no_bubble](web_no_bubble/) | 19.0.1.0.0 |  | Remove the bubbles from the web interface
+[web_notify](web_notify/) | 19.0.1.0.0 |  | Send notification messages to user
 [web_pwa_customize](web_pwa_customize/) | 19.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Web Pwa Customize
 [web_refresher](web_refresher/) | 19.0.1.0.0 |  | Web Refresher
 [web_remember_tree_column_width](web_remember_tree_column_width/) | 19.0.1.0.0 | <a href='https://github.com/frahikLV'><img src='https://github.com/frahikLV.png' width='32' height='32' style='border-radius:50%;' alt='frahikLV'/></a> <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> <a href='https://github.com/cuongnmtm'><img src='https://github.com/cuongnmtm.png' width='32' height='32' style='border-radius:50%;' alt='cuongnmtm'/></a> | Remember the tree columns' widths across sessions.
@@ -47,6 +48,7 @@ addon | version | maintainers | summary
 [web_widget_one2many_tree_line_duplicate](web_widget_one2many_tree_line_duplicate/) | 19.0.1.0.0 |  | Web Widget One2many Tree Line Duplicate
 [web_widget_product_label_section_and_note_full_label](web_widget_product_label_section_and_note_full_label/) | 19.0.1.0.0 |  | Display the full label in the product_label_section_and_note widget.
 [web_widget_product_label_section_and_note_name_visibility](web_widget_product_label_section_and_note_name_visibility/) | 19.0.1.0.0 | <a href='https://github.com/carlos-lopez-tecnativa'><img src='https://github.com/carlos-lopez-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='carlos-lopez-tecnativa'/></a> | Alternate the visibility of the product and description.
+[web_widget_url_advanced](web_widget_url_advanced/) | 19.0.1.0.0 |  | This module extends URL widget for displaying anchors with custom labels.
 
 [//]: # (end addons)
 
