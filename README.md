@@ -29,7 +29,7 @@ addon | version | maintainers | summary
 [web_copy_confirm](web_copy_confirm/) | 18.0.1.0.0 |  | Show confirmation dialogue before copying records
 [web_dark_mode](web_dark_mode/) | 18.0.1.0.0 |  | Enabled Dark Mode for the Odoo Backend
 [web_datetime_picker_default_time](web_datetime_picker_default_time/) | 18.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Allows to define a default time on datetime picker
-[web_dialog_size](web_dialog_size/) | 18.0.1.0.2 |  | A module that lets the user expand a dialog box to the full screen width.
+[web_dialog_size](web_dialog_size/) | 18.0.1.0.3 |  | A module that lets the user expand a dialog box to the full screen width.
 [web_disable_export_group](web_disable_export_group/) | 18.0.1.0.0 |  | Web Disable Export Group
 [web_editor_class_selector](web_editor_class_selector/) | 18.0.1.0.0 | <a href='https://github.com/carlos-lopez-tecnativa'><img src='https://github.com/carlos-lopez-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='carlos-lopez-tecnativa'/></a> | Web editor class selector
 [web_editor_disable_chatgpt](web_editor_disable_chatgpt/) | 18.0.1.0.0 |  | Web Disable ChatGPT
@@ -54,7 +54,8 @@ addon | version | maintainers | summary
 [web_quick_start_screen](web_quick_start_screen/) | 18.0.1.0.0 |  | Configurable start screen for quick actions
 [web_refresher](web_refresher/) | 18.0.1.0.1 |  | Web Refresher
 [web_remember_tree_column_width](web_remember_tree_column_width/) | 18.0.1.0.2 | <a href='https://github.com/frahikLV'><img src='https://github.com/frahikLV.png' width='32' height='32' style='border-radius:50%;' alt='frahikLV'/></a> <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> <a href='https://github.com/cuongnmtm'><img src='https://github.com/cuongnmtm.png' width='32' height='32' style='border-radius:50%;' alt='cuongnmtm'/></a> | Remember the tree columns' widths across sessions.
-[web_responsive](web_responsive/) | 18.0.1.0.7 | <a href='https://github.com/Tardo'><img src='https://github.com/Tardo.png' width='32' height='32' style='border-radius:50%;' alt='Tardo'/></a> <a href='https://github.com/SplashS'><img src='https://github.com/SplashS.png' width='32' height='32' style='border-radius:50%;' alt='SplashS'/></a> | Responsive web client, community-supported
+[web_responsive](web_responsive/) | 18.0.1.0.8 | <a href='https://github.com/Tardo'><img src='https://github.com/Tardo.png' width='32' height='32' style='border-radius:50%;' alt='Tardo'/></a> <a href='https://github.com/SplashS'><img src='https://github.com/SplashS.png' width='32' height='32' style='border-radius:50%;' alt='SplashS'/></a> | Responsive web client, community-supported
+[web_responsive_company_color](web_responsive_company_color/) | 18.0.1.0.0 |  | Styling hooks for web_responsive elements
 [web_save_discard_button](web_save_discard_button/) | 18.0.1.0.1 | <a href='https://github.com/synconics'><img src='https://github.com/synconics.png' width='32' height='32' style='border-radius:50%;' alt='synconics'/></a> | Save & Discard Buttons
 [web_search_with_and](web_search_with_and/) | 18.0.1.0.1 |  | Use AND conditions on omnibar search
 [web_send_message_popup](web_send_message_popup/) | 18.0.1.0.0 |  | Web Send Message as Popup
