@@ -43,6 +43,7 @@ addon | version | maintainers | summary
 [web_help](web_help/) | 18.0.1.0.0 |  | Help Framework
 [web_ir_actions_act_multi](web_ir_actions_act_multi/) | 18.0.1.0.0 |  | Enables triggering of more than one action on ActionManager
 [web_ir_actions_act_window_message](web_ir_actions_act_window_message/) | 18.0.1.0.1 |  | Show a message box to users
+[web_loading_block_ui](web_loading_block_ui/) | 18.0.1.0.0 |  | Block the screen with a centered loading overlay while requests are pending
 [web_m2x_options](web_m2x_options/) | 18.0.1.0.3 |  | web_m2x_options
 [web_m2x_options_manager](web_m2x_options_manager/) | 18.0.1.0.0 |  | Adds an interface to manage the "Create" and "Create and Edit" options for specific models and fields.
 [web_no_bubble](web_no_bubble/) | 18.0.1.0.0 |  | Remove the bubbles from the web interface
@@ -65,7 +66,7 @@ addon | version | maintainers | summary
 [web_systray_button_init_action](web_systray_button_init_action/) | 18.0.1.0.2 |  | Add a button to go to the user init action.
 [web_theme_classic](web_theme_classic/) | 18.0.1.2.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Contrasted style on fields to improve the UI.
 [web_time_range_menu_custom](web_time_range_menu_custom/) | 18.0.1.0.0 |  | Web Time Range Menu Custom
-[web_timeline](web_timeline/) | 18.0.1.0.3 |  | Interactive visualization chart to show events in time
+[web_timeline](web_timeline/) | 18.0.1.0.4 |  | Interactive visualization chart to show events in time
 [web_toggle_chatter](web_toggle_chatter/) | 18.0.1.0.0 |  | Toggle chatter in backend form views
 [web_touchscreen](web_touchscreen/) | 18.0.1.0.0 | <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | UX improvements for touch screens
 [web_tree_column_keyboard_resize](web_tree_column_keyboard_resize/) | 18.0.1.0.0 |  | Allow resizing tree view columns using keyboard shortcuts
