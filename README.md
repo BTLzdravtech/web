@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# web
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/web&target_branch=19.0)
 [![Pre-commit Status](https://github.com/OCA/web/actions/workflows/pre-commit.yml/badge.svg?branch=19.0)](https://github.com/OCA/web/actions/workflows/pre-commit.yml?query=branch%3A19.0)
 [![Build Status](https://github.com/OCA/web/actions/workflows/test.yml/badge.svg?branch=19.0)](https://github.com/OCA/web/actions/workflows/test.yml?query=branch%3A19.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/web-19-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/web-19-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# web
 
 web
 
@@ -27,7 +28,7 @@ addon | version | maintainers | summary
 [web_company_context_highlight](web_company_context_highlight/) | 19.0.1.0.0 | <a href='https://github.com/pverkest'><img src='https://github.com/pverkest.png' width='32' height='32' style='border-radius:50%;' alt='pverkest'/></a> | Highlight the company switcher when multiple companies are selected
 [web_dark_mode](web_dark_mode/) | 19.0.1.0.0 |  | Enabled Dark Mode for the Odoo Backend
 [web_date_format_numeric](web_date_format_numeric/) | 19.0.1.0.0 |  | Display all date/datetime fields in numeric format
-[web_dialog_size](web_dialog_size/) | 19.0.1.0.3 |  | A module that lets the user expand a dialog box to the full screen width.
+[web_dialog_size](web_dialog_size/) | 19.0.1.0.4 |  | A module that lets the user expand a dialog box to the full screen width.
 [web_editor_class_selector](web_editor_class_selector/) | 19.0.1.0.0 | <a href='https://github.com/carlos-lopez-tecnativa'><img src='https://github.com/carlos-lopez-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='carlos-lopez-tecnativa'/></a> | Web editor class selector
 [web_environment_ribbon](web_environment_ribbon/) | 19.0.1.0.0 |  | Web Environment Ribbon
 [web_favicon](web_favicon/) | 19.0.1.0.1 |  | Allows to set a custom shortcut icon (aka favicon)
@@ -37,7 +38,7 @@ addon | version | maintainers | summary
 [web_ir_actions_act_multi](web_ir_actions_act_multi/) | 19.0.1.0.0 |  | Enables triggering of more than one action on ActionManager
 [web_ir_actions_act_window_message](web_ir_actions_act_window_message/) | 19.0.1.0.0 | <a href='https://github.com/hbrunn'><img src='https://github.com/hbrunn.png' width='32' height='32' style='border-radius:50%;' alt='hbrunn'/></a> | Show a message box to users
 [web_m2x_options](web_m2x_options/) | 19.0.1.0.2 |  | web_m2x_options
-[web_m2x_options_manager](web_m2x_options_manager/) | 19.0.1.0.0 |  | Adds an interface to manage the "Create" and "Create and Edit" options for specific models and fields.
+[web_m2x_options_manager](web_m2x_options_manager/) | 19.0.1.0.1 |  | Adds an interface to manage the "Create" and "Create and Edit" options for specific models and fields.
 [web_no_bubble](web_no_bubble/) | 19.0.1.0.0 |  | Remove the bubbles from the web interface
 [web_notify](web_notify/) | 19.0.1.0.1 |  | Send notification messages to user
 [web_notify_upgrade](web_notify_upgrade/) | 19.0.1.0.0 |  | Notify active users when a module is installed or updated
@@ -48,11 +49,13 @@ addon | version | maintainers | summary
 [web_responsive](web_responsive/) | 19.0.1.1.1 | <a href='https://github.com/Tardo'><img src='https://github.com/Tardo.png' width='32' height='32' style='border-radius:50%;' alt='Tardo'/></a> <a href='https://github.com/SplashS'><img src='https://github.com/SplashS.png' width='32' height='32' style='border-radius:50%;' alt='SplashS'/></a> | Responsive web client, community-supported
 [web_search_deactivate_autosearch](web_search_deactivate_autosearch/) | 19.0.1.0.0 | <a href='https://github.com/samirGuesmi'><img src='https://github.com/samirGuesmi.png' width='32' height='32' style='border-radius:50%;' alt='samirGuesmi'/></a> <a href='https://github.com/AnizR'><img src='https://github.com/AnizR.png' width='32' height='32' style='border-radius:50%;' alt='AnizR'/></a> | Allow user to deactivate autosearch to add multiple filters
 [web_search_with_and](web_search_with_and/) | 19.0.1.0.0 |  | Use AND conditions on omnibar search
+[web_theme_classic](web_theme_classic/) | 19.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Contrasted style on fields to improve the UI.
 [web_timeline](web_timeline/) | 19.0.1.0.1 |  | Interactive visualization chart to show events in time
 [web_tree_many2one_clickable](web_tree_many2one_clickable/) | 19.0.1.1.0 |  | Open the linked resource when clicking on their name
 [web_widget_bokeh_chart](web_widget_bokeh_chart/) | 19.0.1.0.1 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> <a href='https://github.com/JasminSForgeFlow'><img src='https://github.com/JasminSForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JasminSForgeFlow'/></a> | This widget allows to display charts using Bokeh library.
 [web_widget_domain_editor_dialog](web_widget_domain_editor_dialog/) | 19.0.1.0.0 |  | Recovers the Domain Editor Dialog functionality
 [web_widget_dropdown_dynamic](web_widget_dropdown_dynamic/) | 19.0.1.0.0 |  | This module adds support for dynamic dropdown widget
+[web_widget_mpld3_chart](web_widget_mpld3_chart/) | 19.0.1.0.1 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> <a href='https://github.com/ThiagoMForgeFlow'><img src='https://github.com/ThiagoMForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ThiagoMForgeFlow'/></a> | This widget allows to display charts using MPLD3 library.
 [web_widget_numeric_step](web_widget_numeric_step/) | 19.0.1.0.0 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Web Widget Numeric Step
 [web_widget_one2many_tree_line_duplicate](web_widget_one2many_tree_line_duplicate/) | 19.0.1.0.1 |  | Web Widget One2many Tree Line Duplicate
 [web_widget_popover](web_widget_popover/) | 19.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Render an icon that displays the field content in a popover
