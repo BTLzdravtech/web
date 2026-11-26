@@ -1,0 +1,185 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_responsive
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: jakobkrabbe <jakob@syscare.se>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: sv\n"
+"PO-Revision-Date: 2026-11-24 15:46+0000\n"
+"X-Generator: Weblate 2026.11.2\n"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/menu_canonical_searchbar/searchbar.xml:0
+msgid "App Icon"
+msgstr "Appikon"
+
+#. module: web_responsive
+#: model:ir.actions.act_window,name:web_responsive.res_users_view_form_apps_menu_preferences_action
+msgid "Apps Menu Preferences"
+msgstr "Inställningar för appmenyn"
+
+#. module: web_responsive
+#: model:ir.model.fields,field_description:web_responsive.field_res_users__apps_menu_search_type
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "Apps Menu Search Type"
+msgstr "Söktyp i appmenyn"
+
+#. module: web_responsive
+#: model:ir.model.fields,field_description:web_responsive.field_res_users__apps_menu_theme
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "Apps Menu Theme"
+msgstr "Tema för appmenyn"
+
+#. module: web_responsive
+#: model:ir.model.fields.selection,name:web_responsive.selection__res_users__apps_menu_search_type__canonical
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "Canonical"
+msgstr "Kanonisk"
+
+#. module: web_responsive
+#: model:ir.model.fields.selection,name:web_responsive.selection__res_users__apps_menu_search_type__command_palette
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "Command Palette"
+msgstr "Kommandopalett"
+
+#. module: web_responsive
+#: model:ir.model.fields.selection,name:web_responsive.selection__res_users__apps_menu_theme__community
+msgid "Community"
+msgstr "Community"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/legacy/xml/form_buttons.xml:0
+msgid "Discard"
+msgstr "Förkasta"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/command_palette/main.xml:0
+msgid "Exit"
+msgstr "Avsluta"
+
+#. module: web_responsive
+#: model:ir.model.fields.selection,name:web_responsive.selection__res_users__apps_menu_search_type__fuse
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "Fuse"
+msgstr "Fuse"
+
+#. module: web_responsive
+#: model:ir.model,name:web_responsive.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP-rutt"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/apps_menu/apps_menu.xml:0
+msgid "Home Menu"
+msgstr "Hemmeny"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/chatter/chatter.xml:0
+msgid "Log note"
+msgstr "Logganteckning"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/file_viewer/file_viewer.xml:0
+msgid "Maximize"
+msgstr "Maximera"
+
+#. module: web_responsive
+#: model:ir.model.fields.selection,name:web_responsive.selection__res_users__apps_menu_theme__milk
+msgid "Milk"
+msgstr "Milk"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/file_viewer/file_viewer.xml:0
+msgid "Minimize"
+msgstr "Minimera"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/legacy/xml/form_buttons.xml:0
+msgid "New"
+msgstr "Ny"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/menu_canonical_searchbar/searchbar.xml:0
+msgid "Nothing to show"
+msgstr "Inget att visa"
+
+#. module: web_responsive
+#: model:ir.model.fields,field_description:web_responsive.field_res_users__is_redirect_home
+msgid "Redirect to Home"
+msgstr "Omdirigera till Hem"
+
+#. module: web_responsive
+#: model:ir.model.fields,help:web_responsive.field_res_users__is_redirect_home
+msgid "Redirect to dashboard after signing in"
+msgstr "Omdirigera till instrumentpanelen efter inloggning"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/legacy/xml/form_buttons.xml:0
+msgid "Save"
+msgstr "Spara"
+
+#. module: web_responsive
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "Search Type"
+msgstr "Söktyp"
+
+#. module: web_responsive
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "Search Type Help"
+msgstr "Hjälp för söktyp"
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/menu_canonical_searchbar/searchbar.xml:0
+#: code:addons/web_responsive/static/src/components/menu_odoo_searchbar/searchbar.xml:0
+msgid "Search menus..."
+msgstr "Sök i menyer..."
+
+#. module: web_responsive
+#. odoo-javascript
+#: code:addons/web_responsive/static/src/components/chatter/chatter.xml:0
+msgid "Send message"
+msgstr "Skicka meddelande"
+
+#. module: web_responsive
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "Theme"
+msgstr "Tema"
+
+#. module: web_responsive
+#: model:ir.model,name:web_responsive.model_res_users
+msgid "User"
+msgstr "Användare"
+
+#. module: web_responsive
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "a new search algorithm is used"
+msgstr "en ny sökalgoritm används"
+
+#. module: web_responsive
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "the standard odoo search tool"
+msgstr "Odoos standardsökverktyg"
+
+#. module: web_responsive
+#: model_terms:ir.ui.view,arch_db:web_responsive.res_users_view_form_apps_menu_preferences
+msgid "uses a standard algorithm"
+msgstr "använder en standardalgoritm"
